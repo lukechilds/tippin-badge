@@ -15,6 +15,7 @@ body {
 }
 
 .description {
+  font-weight: 500;
   margin-top: 1.4em;
   font-size: 1.4em;
 }
@@ -47,4 +48,16 @@ body {
 .badge-preview {
   margin-top: 2em;
   height: 20px;
+}
+
+.output-title {
+  margin-top: 2em;
+}
+
+pre {
+  text-align: left;
+  font-size: 0.8em;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1em;
+  overflow-x: scroll;
 }
