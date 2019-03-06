@@ -1,5 +1,8 @@
+const {version} = require('./package');
 const badgen = require('badgen');
 const escape = require('escape-html');
+
+document.querySelector('.version').innerText = `v${version}`;
 
 const badgeLinkUrl = username => `https://tippin.me/@${username}`;
 const badgeImageUrl = username => `https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@${username}/F0918E`;

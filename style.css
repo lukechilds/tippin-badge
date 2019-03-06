@@ -5,6 +5,15 @@ body {
   background-color: #F0918E;
 }
 
+a {
+  color: #E45D58;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #DB2A24;
+}
+
 .container {
   width: 800px;
   margin: 1em auto 0;
@@ -59,5 +68,15 @@ pre {
   font-size: 0.8em;
   background: rgba(255, 255, 255, 0.3);
   padding: 1em;
+  border-radius: 3px;
   overflow-x: scroll;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: left;
+}
+
+footer .me {
+  float: right;
 }
