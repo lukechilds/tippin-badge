@@ -12,7 +12,7 @@ Just enter your Twitter handle into text input at [lukechilds.github.io/tippin-b
 
 It will render a badge that links to your tippin.me page and looks something like this:
 
-[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@lukechilds/F0918E)](https://tippin.me/@lukechilds)
+[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@lukechilds/F0918E)](https://tippin.me/@lukechilds) [![Greenkeeper badge](https://badges.greenkeeper.io/lukechilds/tippin-badge.svg)](https://greenkeeper.io/)
 
 You can see how it looks in one of my projects here:
 
