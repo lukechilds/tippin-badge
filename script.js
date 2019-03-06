@@ -14,4 +14,4 @@ const generateBadge = () => {
   badgePreview.innerHTML = badgeHtml(username.value);
 };
 
-username.addEventListener('change', generateBadge);
+username.addEventListener('input', generateBadge);
