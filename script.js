@@ -1,6 +1,6 @@
-const {version} = require('./package');
-const badgen = require('badgen');
-const escape = require('escape-html');
+import {version} from './package';
+import badgen from 'badgen';
+import escape from 'escape-html';
 
 document.querySelector('.version').innerText = `v${version}`;
 
