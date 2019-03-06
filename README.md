@@ -8,7 +8,7 @@
 
 ## Usage
 
-Just enter your Twitter handle into text input at [lukechilds.github.io/tippin-badge](https://lukechilds.github.io/tippin-badge/) and copy the Markdown code into the readme file of your open source project.
+Just enter your Twitter handle into the text input at [lukechilds.github.io/tippin-badge](https://lukechilds.github.io/tippin-badge/) and copy the Markdown code into the readme file of your open source project.
 
 It will render a badge that links to your tippin.me page and looks something like this:
 
