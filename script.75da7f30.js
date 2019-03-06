@@ -116,7 +116,7 @@ module.exports = {
   "private": true,
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url https://lukechilds.github.io/tippin-badge",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
