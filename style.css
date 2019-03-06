@@ -16,7 +16,7 @@ a:hover {
 
 .container {
   width: 800px;
-  margin: 1em auto 0;
+  margin: 2em auto;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 1em;
