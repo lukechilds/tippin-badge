@@ -4,7 +4,7 @@
 
 [tippin.me](https://tippin.me) is a really cute service to easily receive tips via the Bitcoin Lightning Network. Add a tippin.me badge to your open source projects to allow people to tip your work.
 
-![](/screenshot.png)
+[![](/screenshot.png)](https://lukechilds.github.io/tippin-badge/)
 
 ## Usage
 
