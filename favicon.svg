@@ -1,0 +1,21 @@
+<svg width="42" height="20" viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="a" x2="0" y2="100%">
+    <stop offset="0" stop-opacity=".1" stop-color="#EEE"></stop>
+    <stop offset="1" stop-opacity=".1"></stop>
+  </linearGradient>
+  <mask id="m"><rect width="200" height="200" rx="30" fill="#FFF"></rect></mask>
+  <g mask="url(#m)">
+    <rect width="100" height="200" fill="#555"></rect>
+    <rect width="100" height="200" fill="#555" x="100" style="
+    /* display: none; */
+"></rect>
+    <rect width="200" height="200" fill="url(#a)"></rect>
+  </g>
+  <g fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
+    
+    <text x="46" y="141" textLength="220">⚡️</text>
+    <text x="375" y="148" textLength="0" fill="#000" opacity="0.25"></text>
+    <text x="365" y="138" textLength="0"></text>
+  </g>
+  
+</svg>
