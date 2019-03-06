@@ -214,14 +214,17 @@ function escapeHtml(string) {
 }
 
 },{}],"script.js":[function(require,module,exports) {
-var _require = require('./package'),
-    version = _require.version;
+"use strict";
 
-var badgen = require('badgen');
+var _package = require("./package");
 
-var escape = require('escape-html');
+var _badgen = _interopRequireDefault(require("badgen"));
 
-document.querySelector('.version').innerText = "v".concat(version);
+var _escapeHtml = _interopRequireDefault(require("escape-html"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+document.querySelector('.version').innerText = "v".concat(_package.version);
 
 var badgeLinkUrl = function badgeLinkUrl(username) {
   return "https://tippin.me/@".concat(username);
@@ -232,7 +235,7 @@ var badgeImageUrl = function badgeImageUrl(username) {
 };
 
 var badgeSVG = function badgeSVG(username) {
-  return badgen({
+  return (0, _badgen.default)({
     subject: '⚡️tippin.me',
     status: "@".concat(username),
     color: 'F0918E'
@@ -258,7 +261,7 @@ var badgeMarkdownSource = document.querySelector('.badge-markdown');
 var badgeSvgSource = document.querySelector('.badge-svg');
 
 var generateBadge = function generateBadge() {
-  var username = escape(usernameInput.value) || 'username';
+  var username = (0, _escapeHtml.default)(usernameInput.value) || 'username';
   badgePreview.innerHTML = badgeHtmlPreview(username);
   badgeHtmlSource.innerText = badgeHtml(username);
   badgeMarkdownSource.innerText = badgeMarkdown(username);
@@ -294,7 +297,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54647" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63921" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
