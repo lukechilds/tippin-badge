@@ -46,12 +46,12 @@ body {
 }
 
 .badge-preview {
-  margin-top: 2em;
+  margin: 2em 0;
   height: 20px;
 }
 
 .output-title {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 pre {
