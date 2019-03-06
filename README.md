@@ -16,7 +16,7 @@ It will render a badge that links to your tippin.me page and looks something lik
 
 You can see how it looks in one of my projects here:
 
-![](/readme-example.png)
+[![](/readme-example.png)](https://github.com/lukechilds/doge-seed)
 
 ## License
 
