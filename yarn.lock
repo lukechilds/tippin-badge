@@ -879,6 +879,11 @@ babylon-walk@^1.0.2:
     babel-types "^6.15.0"
     lodash.clone "^4.5.0"
 
+badgen@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/badgen/-/badgen-2.7.0.tgz#b2cb9c247a525299557f8190032523c554a557bd"
+  integrity sha512-apgGBA8dZI4gBPt9s/RRCG660h0pteT/2ANh+wqAUSDNPsRRCNVlezEUi5znJU3Ceolno/xryDG4LD2xGzCfow==
+
 balanced-match@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
