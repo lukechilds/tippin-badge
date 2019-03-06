@@ -2,6 +2,8 @@
 
 > Readme badge generator for tippin.me - [lukechilds.github.io/tippin-badge](https://lukechilds.github.io/tippin-badge/)
 
+[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@lukechilds/F0918E)](https://tippin.me/@lukechilds)
+
 [tippin.me](https://tippin.me) is a really cute service to easily receive tips via the Bitcoin Lightning Network. Add a tippin.me badge to your open source projects to allow people to tip your work.
 
 [![](/screenshot.png)](https://lukechilds.github.io/tippin-badge/)
