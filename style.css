@@ -1,1 +1,5 @@
 @import 'modern-normalize';
+
+body {
+  background-color: #F0918E;
+}
