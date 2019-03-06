@@ -17,13 +17,29 @@ body {
   font-size: 1.4em;
 }
 
-input[name="username"] {
+.input-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+.input-container input {
+  width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.5);
   padding: 0.1em;
   border-radius: 3px;
-  font-size: 2em;
   outline: none;
+  padding-left: 1em;
+}
+
+.input-container .prefix {
+  position: absolute;
+  top: 50%;
+  left: 0.1em;
+  transform: translateY(-50%);
+  color: #F0918E;
 }
 
 .badge-preview {
