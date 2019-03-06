@@ -13,7 +13,8 @@ const username = document.querySelector('input[name="username"]');
 const badgePreview = document.querySelector('.badge-preview');
 
 const generateBadge = () => {
-  badgePreview.innerHTML = badgeHtml(escape(username.value));
+  badgePreview.innerHTML = badgeHtml(escape(username.value) || 'username');
 };
 
+generateBadge();
 username.addEventListener('input', generateBadge);
