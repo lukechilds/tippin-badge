@@ -1,6 +1,7 @@
 @import 'modern-normalize';
 
 body {
+  color: #2A2B2C;
   background-color: #F0918E;
 }
 
@@ -14,6 +15,7 @@ body {
 }
 
 .description {
+  margin-top: 1.4em;
   font-size: 1.4em;
 }
 
@@ -26,8 +28,8 @@ body {
 
 .input-container input {
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
   padding: 0.1em;
   border-radius: 3px;
   outline: none;
@@ -43,6 +45,6 @@ body {
 }
 
 .badge-preview {
-  margin-top: 1em;
+  margin-top: 2em;
   height: 20px;
 }
