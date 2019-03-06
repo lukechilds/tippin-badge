@@ -1,0 +1,20 @@
+{
+  "name": "tippin-badge",
+  "version": "1.0.0",
+  "description": "Readme badge generator for tippin.me",
+  "main": "index.html",
+  "repository": "lukechilds/tippin-badge",
+  "author": "Luke Childs <lukechilds123@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "modern-normalize": "^0.5.0"
+  }
+}
